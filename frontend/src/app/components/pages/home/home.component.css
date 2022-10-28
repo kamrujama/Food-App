@@ -1,0 +1,58 @@
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 1rem;
+}
+
+ul a{
+  height: 22.5rem;
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  margin: .5rem;
+  color: red;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+ul a:hover{
+  opacity: 0.9;
+}
+
+ul a img{
+  object-fit: cover;
+  height: 10rem;
+}
+.content{
+  position: relative;
+  margin: .2rem;
+}
+
+.favorite{
+  position: absolute;
+  top: 0.1rem;
+  right: 0.4rem;
+}
+.favorite .fav{
+  color: red;
+}
+.favorite .not{
+  color: gray;
+}
+
+.content-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.origin{
+  padding: 0.2rem .8rem;
+  background-color: gainsboro;
+  font-size: 0.7rem;
+  font-weight: bold;
+  /* color: rgb(61, 60, 60); */
+  border-radius: 1rem;
+}
+
